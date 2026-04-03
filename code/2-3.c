@@ -5,6 +5,7 @@ int main() {
   int* arr[] = {&a, &b, &c, &d};
   int** pp = arr;
 
+  
   int** base = arr;
 
   printf("%ld\n", (char* )pp - (char* )base);
