@@ -4,6 +4,7 @@ void double_elements(int arr1[], int d) {
 
   for (int i=0; i<d; i++) {
     arr1[i] = 2*arr1[i];
+  }
 }
 
 int main() {
