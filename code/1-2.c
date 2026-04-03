@@ -3,7 +3,7 @@
 int sum_range(int* start, int* end) {
   int count = end - start;
   int sum = 0;
-  for (int i=?; i<?; i++) {
+  for (int i=0; i<count; i++) {
     sum += start[i];
   }
   return sum;
