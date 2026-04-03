@@ -2,7 +2,7 @@
 
 void print_reverse(int* arr, int size) {
   for (int i=arr[size-1];i>0;i--) {
-    printf(arr[i]);
+    printf(*arr[i]);
   }
 }
 
