@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void print_reverse(int* arr, int size) {
-  for (int i=arr[size-1];i>0;i--) {
+  for (int i=size-1;i>0;i--) {
     printf(*arr[i]);
   }
 }
